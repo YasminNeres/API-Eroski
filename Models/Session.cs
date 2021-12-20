@@ -7,10 +7,8 @@ namespace Eroski.Models
     {
        
          [Key]
-       public long Id { get; set; }
-        public string Name { get; set; }
-        public bool IsComplete { get; set; }
-
-        public int Valor {get;set;} = 0;
+    
+        public string nSeccion { get; set; }
+        public int Ticket  {get;set;} = 0;
     }
 }

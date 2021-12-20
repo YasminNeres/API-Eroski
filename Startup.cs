@@ -28,7 +28,7 @@ namespace Eroski
             {
                 c.SwaggerDoc("v1", new ()
                 
-                 { Title = "MercadoFinanciero", Version = "v1" });
+                 { Title = "Eroski", Version = "v1" });
             });
         }
         
